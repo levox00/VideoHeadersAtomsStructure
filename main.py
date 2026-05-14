@@ -642,7 +642,7 @@ def print_subsection(title, char="─", color=Colors.YELLOW):
     bar = char * 70
     print(f"\n{c(bar, color)}")
     print(c(f"  {title}", Colors.BOLD + color))
-    print(c(bar, color)}")
+    print(c(bar, color))
 
 
 def print_tree(atoms, data):
