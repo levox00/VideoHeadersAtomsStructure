@@ -4,7 +4,16 @@ Give out detailed information about mp4 videos.
 Usage:
 Place main.py in videos directory
 Open cmd in that directory
-python main.py [mp4 name].mp4
+
+# Full analysis with everything
+> python main.py outputFinal.mp4 --hex --raw
+
+# Compare original vs patched
+> python main.py original.mp4 outputFinal.mp4
+
+# Export to JSON for further processing
+> python main.py outputFinal.mp4 --json data.json
+
 :)
 
 Example output:
